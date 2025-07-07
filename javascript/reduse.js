@@ -14,7 +14,6 @@ let employee = [
     {name:"Anna",age:30,salary:6000},
     {name:"Peter",age:35,salary:7000}
 ]
-
 let employeecurr = employee.reduce((acc,ele,index,array)=>{
     return acc+ele.salary
 },0);
