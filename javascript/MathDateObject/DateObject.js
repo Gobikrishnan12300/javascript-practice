@@ -38,7 +38,6 @@ dataform.setFullYear(6,8);
 
 console.log(dataform);
 
-
 //Date.setDate(day)
 
 dataform.setDate(12);
